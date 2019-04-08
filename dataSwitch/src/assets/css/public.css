@@ -1,0 +1,42 @@
+/*
+Error: Invalid GBK character "\xE4"
+        on line 3 of public.scss
+
+1: [class^="el-icon-wtcms"], [class*=" el-icon-wtcms"] {
+2:   font-family:"iconfont" !important;
+3:   /* 以下内容参照第三方图标库本身的规则 *\/
+4:   font-size: 14px;
+5:   font-style:normal;
+6:   -webkit-font-smoothing: antialiased;
+7:   -moz-osx-font-smoothing: grayscale;
+8: }
+
+Backtrace:
+public.scss:3
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/util.rb:1041:in `rescue in block in find_encoding_error'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/util.rb:1038:in `block in find_encoding_error'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/util.rb:1037:in `each'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/util.rb:1037:in `each_with_index'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/util.rb:1037:in `find_encoding_error'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/util.rb:765:in `check_sass_encoding'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/engine.rb:444:in `check_encoding!'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/engine.rb:400:in `_to_tree'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/engine.rb:307:in `render_with_sourcemap'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `each'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin.rb:82:in `update_stylesheets'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:51:in `process_result'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/base.rb:50:in `parse'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/base.rb:18:in `parse!'
+E:/Java/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.7/bin/scss:13:in `<top (required)>'
+E:/Java/Ruby24-x64/bin/scss:23:in `load'
+E:/Java/Ruby24-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE4\"\A         on line 3 of public.scss\A \A 1: [class^=\"el-icon-wtcms\"], [class*=\" el-icon-wtcms\"] {\A 2:   font-family:\"iconfont\" !important;\A 3:   /* 以下内容参照第三方图标库本身的规则 */\A 4:   font-size: 14px;\A 5:   font-style:normal;\A 6:   -webkit-font-smoothing: antialiased;\A 7:   -moz-osx-font-smoothing: grayscale;\A 8: }"; }

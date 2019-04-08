@@ -1,0 +1,115 @@
+[class^="el-icon-wtcms"], [class*=" el-icon-wtcms"] {
+  font-family:"iconfont" !important;
+  /* 以下内容参照第三方图标库本身的规则 */
+  font-size: 14px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li{
+	list-style: none;
+}
+.el-table{
+  th{
+    background: #f5f7fa;
+  }
+}
+.el-container{
+	height: 100%;
+}
+.site-right{
+	overflow: auto;
+}
+.el-header {
+  line-height: 60px;
+	padding: 0 20px 0 0;
+  box-shadow: 10px 1px 15px rgba(0,0,0,.17);
+  color: #fff;
+  background-color: #0070c1;
+}
+.el-main {
+	display: block;
+	padding: 10px;
+  background-color: #eff3f6;
+}
+.el-footer{
+	height: 30px;
+	overflow: hidden;
+	text-align: center;
+}
+.el-form-item__content{
+  #editor{
+    line-height: normal;
+  }
+}
+.el-breadcrumb {
+  margin-bottom: 10px;
+  line-height: 30px;
+  border-bottom: 2px solid #008df6;
+}
+.scroll-area{
+  height: 100%;
+  .el-scrollbar__wrap{
+    overflow-x: hidden;
+  }
+  .el-scrollbar__bar.is-horizontal{
+    display: none;
+  }
+}
+.el-pagination{
+	margin: 10px 0;
+	text-align: center;
+	&.is-background{
+		.btn-next,.btn-prev,.el-pager li{
+			border: 1px solid #dfdfdf;
+  		font-weight: normal;
+  		background: #fff;
+		}
+	}
+}
+.viewTextBtn{
+	color: #FDA302;
+	&:focus,&:hover{
+		color: #FDA302;
+	}
+}
+.delTextBtn,.stopTextBtn,.checkUnpassTextBtn{
+	color: #F56C6C;
+	&:focus,&:hover{
+		color: #F56C6C;
+	}
+}
+.startTextBtn,.checkPassTextBtn{
+	color: #67C23A;
+	&:focus,&:hover{
+		color: #67C23A;
+	}
+}
+.edui-combox-body,.edui-button-body{
+	line-height: normal;
+}
+.edui-editor-toolbarboxinner{
+	line-height: 30px;
+}
+#tree-box{
+	height: 330px;
+    overflow: auto;
+}
+.optsPage,.emailPage{
+	border-radius: 4px;
+}
+.edit-title{
+  color: #409EFF;
+  cursor: pointer;
+  &:hover{
+    color: #66B1FF;
+  }
+}
+.el-col{
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.main{
+  height: 90%;
+}
